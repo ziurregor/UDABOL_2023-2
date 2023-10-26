@@ -1,0 +1,34 @@
+﻿<Properties StartupConfiguration="{A3B32F1E-CC54-4C86-8914-EE2E44602A51}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="appsettings.Development.json">
+    <Files>
+      <File FileName="Program.cs" Line="29" Column="75" />
+      <File FileName="Properties/launchSettings.json" />
+      <File FileName="appsettings.Development.json" Line="9" Column="39" />
+      <File FileName="Pages/IndexA.cshtml" Line="21" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="frontend">
+            <Node name="frontend">
+              <Node name="Pages" expanded="True">
+                <Node name="NotasAlumno.cshtml" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True" />
+              <Node name="appsettings.json" expanded="True">
+                <Node name="appsettings.Development.json" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.frontend PreferredExecutionTarget="/Applications/Google Chrome.app" />
+</Properties>
