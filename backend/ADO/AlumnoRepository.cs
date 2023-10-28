@@ -56,9 +56,12 @@ namespace ADO
 
         public async Task DeleteAlumno(Alumno alumno)
         {
-            //_context.Alumnos borrar el alumno
-            await _context.SaveChangesAsync();
+            if (alumno != null)
+            {
+                alumno.IsDeleted = true; // Marcar la entidad como eliminada.
+                await _context.SaveChangesAsync(); // Confirmar la eliminación lógica en la base de datos.
+            }
+
         }
-    }
 }
 
