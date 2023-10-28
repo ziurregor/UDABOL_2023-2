@@ -33,7 +33,7 @@ namespace ADO
 
         public async Task<Alumno> GetAlumnoByCodigo(string codigo)
         {
-            Alumno alumno = null; //cambiar por el valro correcto
+            Alumno alumno = await BuscarAlumnoPorCodigoAsync(codigo);
             if (alumno == null)
             {
                 throw new Exception("Alumno no encontrado");
