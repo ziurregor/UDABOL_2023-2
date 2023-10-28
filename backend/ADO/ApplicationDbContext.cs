@@ -17,7 +17,6 @@ namespace ADO
         {
         }
 
-      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

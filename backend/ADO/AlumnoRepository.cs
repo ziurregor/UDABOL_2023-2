@@ -34,6 +34,7 @@ namespace ADO
         public async Task<Alumno> GetAlumnoByCodigo(string codigo)
         {
             Alumno alumno = await BuscarAlumnoPorCodigoAsync(codigo);
+
             if (alumno == null)
             {
                 throw new Exception("Alumno no encontrado");
@@ -47,7 +48,7 @@ namespace ADO
             _context.Alumnos.Add(alumno); // Agregar el alumno al contexto
             await _context.SaveChangesAsync(); // Guardar los cambios en la base de datos*
         }
-
+        
         public async Task UpdateAlumno(Alumno alumno)
         {
             //modificar el context.Alumnos actualizando el dato con el alumno
