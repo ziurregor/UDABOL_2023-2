@@ -33,7 +33,8 @@ namespace ADO
 
         public async Task<Alumno> GetAlumnoByCodigo(string codigo)
         {
-            Alumno alumno = null; //cambiar por el valor correcto
+            Alumno alumno = await BuscarAlumnoPorCodigoAsync(codigo);
+
             if (alumno == null)
             {
                 throw new Exception("Alumno no encontrado");
@@ -44,8 +45,8 @@ namespace ADO
 
         public async Task AddAlumno(Alumno alumno)
         {
-            //adicionar el codigo para adicionar un dato tipo alumno ****
-            await _context.SaveChangesAsync();
+            _context.Alumnos.Add(alumno); // Agregar el alumno al contexto
+            await _context.SaveChangesAsync(); // Guardar los cambios en la base de datos*
         }
         
         public async Task UpdateAlumno(Alumno alumno)
@@ -56,9 +57,12 @@ namespace ADO
 
         public async Task DeleteAlumno(Alumno alumno)
         {
-            //_context.Alumnos borrar el alumno
-            await _context.SaveChangesAsync();
+            if (alumno != null)
+            {
+                alumno.IsDeleted = true; // Marcar la entidad como eliminada.
+                await _context.SaveChangesAsync(); // Confirmar la eliminación lógica en la base de datos.
+            }
+
         }
-    }
 }
 
