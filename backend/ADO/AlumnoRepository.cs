@@ -33,7 +33,7 @@ namespace ADO
 
         public async Task<Alumno> GetAlumnoByCodigo(string codigo)
         {
-            Alumno alumno = null; //cambiar por el valro correcto
+            Alumno alumno = null; //cambiar por el valor correcto
             if (alumno == null)
             {
                 throw new Exception("Alumno no encontrado");
@@ -47,7 +47,7 @@ namespace ADO
             //adicionar el codigo para adicionar un dato tipo alumno
             await _context.SaveChangesAsync();
         }
-
+        
         public async Task UpdateAlumno(Alumno alumno)
         {
             //modificar el context.Alumnos actualizando el dato con el alumno
