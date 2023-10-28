@@ -21,7 +21,7 @@ namespace ADO
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Define las configuraciones de las entidades aquí
+            // Define las configuraciones de las entidades aquí ***
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
