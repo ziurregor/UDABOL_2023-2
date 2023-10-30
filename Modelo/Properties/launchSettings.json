@@ -12,7 +12,7 @@
   "Modelo": {
   "commandName": "Project",
   "launchBrowser": true,
-  "applicationUrl": "https://localhost:7049,http://localhost:5208", // Sintaxis Cambio de punto y coma a coma corregido 
+  "applicationUrl": "https://localhost:7049,http://localhost:5208", // Sintaxis Cambio de punto y coma a coma corregido
   "environmentVariables": {
   "ASPNETCORE_ENVIRONMENT": "Development"
   }
