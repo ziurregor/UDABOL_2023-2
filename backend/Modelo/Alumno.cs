@@ -10,7 +10,8 @@ namespace Modelo
             [Column("id")]
        //completar el modelo segun los datos que se necesitan para el modelo de alumno
 
-
+            //archivo modificado
+            
 
     }
 }
