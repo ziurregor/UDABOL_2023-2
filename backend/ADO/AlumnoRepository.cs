@@ -48,12 +48,48 @@ namespace ADO
             _context.Alumnos.Add(alumno); // Agregar el alumno al contexto
             await _context.SaveChangesAsync(); // Guardar los cambios en la base de datos*
         }
-        
+
         public async Task UpdateAlumno(Alumno alumno)
-        {
-            //modificar el context.Alumnos actualizando el dato con el alumno
-            await _context.SaveChangesAsync();
-        }
+    {
+        if (alumno == null)
+            {
+                throw new ArgumentNullException(nameof(alumno), "El objeto Alumno no puede ser nulo.");
+            }
+
+            var existingAlumno = await _context.Alumnos.FindAsync(alumno.Id);
+
+        if (existingAlumno == null)
+            {
+                throw new InvalidOperationException("El alumno no existe en la base de datos.");
+            }
+
+        // Realizar actualización selectiva solo si los campos han cambiado
+        if (existingAlumno.Nombre != alumno.Nombre)
+            {
+                existingAlumno.Nombre = alumno.Nombre;
+            }
+
+        if (existingAlumno.Codigo != alumno.Codigo)
+            {
+                existingAlumno.Codigo = alumno.Codigo;
+            }
+
+        // Guardar los cambios en el contexto solo si se han realizado cambios
+        if (_context.Entry(existingAlumno).State == EntityState.Modified)
+            {
+                try
+                {
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateException ex)
+                {
+                    // Puedes manejar excepciones específicas de EF Core aquí
+                    throw new Exception("Error al actualizar el alumno en la base de datos.", ex);
+                }
+            }
+    }
+
+
 
         public async Task DeleteAlumno(Alumno alumno)
         {
