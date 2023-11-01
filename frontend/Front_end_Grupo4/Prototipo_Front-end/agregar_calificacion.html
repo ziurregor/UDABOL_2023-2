@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Calificaciones</title>
+    <link rel="stylesheet" type="text/css" href="stylesformulario.css">
+</head>
+<body>
+    <h1>Registro de Calificaciones</h1>
+    <form id="calificacionForm">
+        <h2>Datos Personales del Estudiante</h2>
+        <label for="nombre">Nombre del Estudiante:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="codigo">Código del Estudiante:</label>
+        <input type="text" id="codigo" name="codigo" required><br>
+
+        <label for="correoPersonal">Correo Personal del Estudiante:</label>
+        <input type="email" id="correoPersonal" name "correoPersonal" required><br>
+
+        <label for="correoUdabol">Correo Institucional (Udabol) del Estudiante:</label>
+        <input type="email" id="correoUdabol" name="correoUdabol" required><br>
+
+        <label for="primerRegistro">Primer Registro del Estudiante:</label>
+        <input type="text" id="primerRegistro" name="primerRegistro" required><br>
+
+        <label for="verificacion">Código de Verificación:</label>
+        <input type="text" id="verificacion" name="verificacion" required><br>
+
+        <label for="id">ID del Estudiante:</label>
+        <input type="number" id="id" name="id" required><br>
+
+        <h2>Calificaciones de Exámenes</h2>
+        <div class="exam-row">
+            <label for="ex12FactApp">Examen 12FactApp (12 Puntos):</label>
+            <input type="number" id="ex12FactApp" name="ex12FactApp" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exAdoo">Examen ADOO (8 Puntos):</label>
+            <input type="number" id="exAdoo" name="exAdoo" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exDocker">Examen Docker (5 Puntos):</label>
+            <input type="number" id="exDocker" name="exDocker" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exGit">Examen GIT (6 Puntos):</label>
+            <input type="number" id="exGit" name="exGit" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exSolid">Examen SOLID (8 Puntos):</label>
+            <input type="number" id="exSolid" name="exSolid" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exScrumTra">Examen Scrum & Transformación (41 Puntos):</label>
+            <input type="number" id="exScrumTra" name="exScrumTra" required>
+        </div>
+
+        <input type="submit" value="Agregar Calificación">
+    </form>
+
+    <a href="inicio.html" class="back-link">Volver a la Página de Inicio</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

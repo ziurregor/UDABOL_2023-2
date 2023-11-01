@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFF0CE;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #0C356A;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #FFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #0174BE;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #FFC436;
+    color: #0C356A;
+    font-weight: bold;
+}
+
+td {
+    background-color: #FFF;
+    color: #0C356A;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFF0CE;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #FFF;
+}
+
+
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #0174BE;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #0174BE;
+    color: #FFF;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0C356A;
+}
+
+.floating-buttons {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-button {
+    display: block;
+    background-color: #0174BE;
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.floating-button:hover {
+    background-color: #0C356A;
+}

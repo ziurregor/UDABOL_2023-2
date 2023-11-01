@@ -118,3 +118,13 @@
 /Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Grupo A/UDABOL/frontend/obj/Debug/net6.0/frontend.dll
 /Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Grupo A/UDABOL/frontend/obj/Debug/net6.0/refint/frontend.dll
 /Users/rogerruizescobar/Documents/2023-1_Sistemas de Infromacion y Sistemas Inteligentes/2023-2/Grupo A/UDABOL/frontend/obj/Debug/net6.0/frontend.pdb
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.AssemblyInfoInputs.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.AssemblyInfo.cs
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.csproj.CoreCompileInputs.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.RazorAssemblyInfo.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.RazorAssemblyInfo.cs
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.dll
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\refint\frontend.dll
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\frontend\obj\Debug\net6.0\frontend.pdb

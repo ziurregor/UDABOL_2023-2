@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Información de Alumnos</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Información de Alumnos</h1>
+    <div class="search-container">
+        <input type="text" id="nameInput" placeholder="Buscar por nombre...">
+        <input type="text" id="codeInput" placeholder="Buscar por código...">
+        <button onclick="searchAlumnos()">Buscar</button>
+        
+    </div>
+    <table id="alumnosTable">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Código</th>
+                <th>Promedio</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    
+    <div class="floating-buttons">
+        <a href="agregar_calificacion.html" class="floating-button">Agregar Nueva Calificación</a>
+        <a href="editar_calificacion.html" class="floating-button">Editar Calificación Existente</a>
+        <a href="eliminar_calificacion.html" class="floating-button">Eliminar Calificación</a>
+        <a href="reporte.html" class="floating-button highlight">Ver Reporte</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

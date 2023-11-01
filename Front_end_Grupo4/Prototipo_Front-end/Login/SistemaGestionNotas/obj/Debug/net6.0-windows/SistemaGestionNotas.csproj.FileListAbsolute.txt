@@ -1,0 +1,17 @@
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\bin\Debug\net6.0-windows\SistemaGestionNotas.exe
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\bin\Debug\net6.0-windows\SistemaGestionNotas.deps.json
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\bin\Debug\net6.0-windows\SistemaGestionNotas.runtimeconfig.json
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\bin\Debug\net6.0-windows\SistemaGestionNotas.dll
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\bin\Debug\net6.0-windows\SistemaGestionNotas.pdb
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.csproj.GenerateResource.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.AssemblyInfoInputs.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.AssemblyInfo.cs
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.csproj.CoreCompileInputs.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.dll
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\refint\SistemaGestionNotas.dll
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.pdb
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.genruntimeconfig.cache
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\ref\SistemaGestionNotas.dll
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.Properties.Resources.resources
+C:\Users\MSI PULSE\Documents\POSTGRADO\Modulo 2\Proyecto_Final\Git\UDABOL_2023-2\Grup_Frontend\SistemaGestionNotas\obj\Debug\net6.0-windows\SistemaGestionNotas.Login.resources

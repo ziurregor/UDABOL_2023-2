@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Editar Calificación</title>
+    <link rel="stylesheet" type="text/css" href="stylesformulario.css">
+</head>
+<body>
+    <h1>Editar Calificación</h1>
+    <form id="editarCalificacionForm">
+        <label for="codigo">Código del Estudiante:</label>
+        <input type="text" id="codigo" name="codigo" required><br>
+
+        <h2>Editar Calificaciones de Exámenes</h2>
+        <div class="exam-row">
+            <label for="ex12FactApp">Examen 12FactApp (12 Puntos):</label>
+            <input type="number" id="ex12FactApp" name="ex12FactApp" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exAdoo">Examen ADOO (8 Puntos):</label>
+            <input type="number" id="exAdoo" name="exAdoo" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exDocker">Examen Docker (5 Puntos):</label>
+            <input type="number" id="exDocker" name="exDocker" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exGit">Examen GIT (6 Puntos):</label>
+            <input type="number" id="exGit" name="exGit" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exSolid">Examen SOLID (8 Puntos):</label>
+            <input type="number" id="exSolid" name="exSolid" required>
+        </div>
+
+        <div class="exam-row">
+            <label for="exScrumTra">Examen Scrum & Transformación (41 Puntos):</label>
+            <input type="number" id="exScrumTra" name="exScrumTra" required>
+        </div>
+
+        <input type="submit" value="Guardar Cambios">
+    </form>
+
+    <a href="inicio.html" class="back-link">Volver a la Página de Inicio</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
